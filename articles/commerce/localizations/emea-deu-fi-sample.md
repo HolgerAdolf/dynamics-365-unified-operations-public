@@ -372,7 +372,7 @@ The Hardware station extension components are included in the Hardware station s
 5. Add the following line to the **composition** section of the configuration file.
 
     ``` xml
-    <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample.dll" />
+    <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample" />
     ```
 
 ### Set up the registration process
