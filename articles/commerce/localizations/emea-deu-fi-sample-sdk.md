@@ -61,7 +61,7 @@ The CRT extension components are included in the CRT samples. To complete the fo
 4. Find the extension configuration file for CRT:
 
     - **Commerce Scale Unit:** The file is named **commerceruntime.ext.config**, and it's in the **bin\\ext** folder under the IIS Commerce Scale Unit site location.
-    - **Local CRT on Modern POS:** The file is named **CommerceRuntime.MPOSOffline.Ext.config**, and it's under the local CRT client broker location.
+    - **Local CRT on Modern POS:** The file is named **CommerceRuntime.MPOSOffline.Ext.config**, and it's in the **\\ext** folder under the local CRT client broker location.
 
 5. Register the CRT change in the extension configuration file.
 
@@ -74,7 +74,7 @@ The CRT extension components are included in the CRT samples. To complete the fo
 1. Find the extension configuration file for CRT:
 
     - **Commerce Scale Unit:** The file is named **commerceruntime.ext.config**, and it's in the **bin\\ext** folder under the IIS Commerce Scale Unit site location.
-    - **Local CRT on Modern POS:** The file is named **CommerceRuntime.MPOSOffline.Ext.config**, and it's under the local CRT client broker location.
+    - **Local CRT on Modern POS:** The file is named **CommerceRuntime.MPOSOffline.Ext.config**, and it's in the **\\ext** folder under the local CRT client broker location.
 
 2. Register the CRT change in the extension configuration file.
 
@@ -107,7 +107,7 @@ The Hardware station extension components are included in the Hardware station s
 5. Add the following line to the **composition** section of the configuration file.
 
     ``` xml
-    <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample.dll" />
+    <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample" />
     ```
 
 ### Production environment
